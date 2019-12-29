@@ -6,7 +6,7 @@ set hive.exec.max.dynamic.partitions=1000000;
 set hive.exec.max.created.files=1000000;
 
 set mapreduce.input.fileinputformat.split.minsize=240000000;
-set mapreduce.input.fileinputformat.split.maxsize=240000000;
+-- set mapreduce.input.fileinputformat.split.maxsize=240000000;
 set mapreduce.input.fileinputformat.split.minsize.per.node=240000000;
 set mapreduce.input.fileinputformat.split.minsize.per.rack=240000000;
 --set hive.exec.parallel=true;
