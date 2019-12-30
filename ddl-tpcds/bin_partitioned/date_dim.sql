@@ -1,4 +1,4 @@
-create database if not exists ${DB} LOCATION '${LOCATION}_orc';
+create database if not exists ${DB};
 use ${DB};
 
 drop table if exists date_dim;
